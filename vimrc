@@ -16,6 +16,9 @@ syntax on
 set background=dark
 color solarized
 
+" swap file
+set noswapfile
+
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
 au WinEnter * set cursorline cursorcolumn
